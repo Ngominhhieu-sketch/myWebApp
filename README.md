@@ -1,21 +1,28 @@
-Module 1: https://www.coursera.org/learn/laravel-framework-and-php/home/module/1
 1. Giới thiệu về PHP
 PHP (viết tắt của Hypertext Preprocessor) là một ngôn ngữ lập trình kịch bản (scripting language) phía server được sử dụng phổ biến trong phát triển web. Nó được nhúng trực tiếp vào mã HTML để tạo ra các trang web động và tương tác.
 2.1 Cú pháp của PHP
 Mã PHP luôn đặt trong cặp thẻ:
+
  `<?php
    // code PHP
  ?>`
+ 
 2.2 Khai báo biến
 Biến trong PHP bắt đầu bằng ký hiệu $.
 Các kiểu dữ liệu chính trong PHP
-`String (chuỗi): "Hello" hoặc 'Hello'
-Integer (số nguyên): 1, -20, 999
-Float/Double (số thực): 3.14, -0.5
-Boolean: true / false`
+
+`String (chuỗi): "Hello" hoặc 'Hello`
+
+`Integer (số nguyên): 1, -20, 999`
+
+`Float/Double (số thực): 3.14, -0.5`
+
+`Boolean: true / false`
+
 3. Cấu trúc điều khiển
    3.1 Cấu trúc rẽ nhánh (Conditional Statements)
 if
+
 `<?php
 $age = 18;
 if ($age >= 18) {
@@ -24,6 +31,7 @@ if ($age >= 18) {
 ?>`
 
 if...else
+
 `<?php
 $diem = 7;
 if ($diem >= 5) {
@@ -103,6 +111,3 @@ xinChao(); // Gọi hàm
 -Xử lý form và dữ liệu người dùng nhập
 -Quản lý session và cookie
 -Tích hợp dễ dàng với HTML, CSS, JavaScript
-
-
-
