@@ -49,10 +49,3 @@
 
 ---
 
-## ⚙️ Setup & Run
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/assaad-assaad/BookStore_Laravel.git
-   cd BookStore_Laravel
-
