@@ -1,0 +1,237 @@
+/* Styles for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orders {
+    margin-top: 10;
+    margin-right: 150px;
+}
+
+/* Styles for top book section */
+#top-book {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top-book-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Styles for book list section */
+#book-list {
+    margin-top: 50px;
+}
+
+.book-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.book-item img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.author {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Styles for book details */
+.book-details {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styles for actions */
+.actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.actions a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #5e2195;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.actions a:hover {
+    background-color: #4c187e;
+}
+
+/* Styles for orders page */
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.orders-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.confirm-orders-btn {
+    background-color: #5e2195;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-orders-btn:hover {
+    background-color: #4c187e;
+}
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #5e2195;
+    text-decoration: none;
+}
+
+/* Styles for single order page */
+.order-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.complete-order-btn {
+    background-color: #5e2195;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.complete-order-btn:hover {
+    background-color: #4c187e;
+}
+
+.links-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link,
+.home-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #5e2195;
+    text-decoration: none;
+}
+
+.back-link:hover,
+.home-link:hover {
+    color: #4c187e;
+}
+
+/* Styles for create-order form page */
+.create-order {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #5e2195;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4c187e;
+}
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #5e2195;
+    text-decoration: none;
+}
+
+.footer {
+    
+    font-size: 20px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+ }
+
+
